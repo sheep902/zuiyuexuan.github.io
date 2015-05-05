@@ -30,11 +30,11 @@
 
 
 
-  <title> 标签: 开始 // 前端那点事儿 </title>
+  <title> 归档 // 前端那点事儿 </title>
 </head>
 
 <body>
-  <div class="container one-column ">
+  <div class="container one-column  page-archive ">
     <div class="headband"></div>
 
     <div id="header" class="header">
@@ -92,14 +92,31 @@
 
           <div id="posts" class="posts-collapse">
             
-  <div class="collection-title">
-    <h2 >
-      开始
-      <small>标签</small>
-    </h2>
-  </div>
+
+  <span class="archive-move-on"></span>
+
+  <span class="archive-page-counter">
+    
+    
+     
+    
+    嗯..! 目前共计 2 篇日志。 继续努力。
+  </span>
 
   
+
+    
+    
+    
+
+    
+      
+      <div class="collection-title">
+        <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
+      </div>
+    
+    
+
     
 
   <div class="post post-type-normal ">
@@ -111,8 +128,8 @@
           
           
             
-              <a class="post-title-link" href="/2015/04/30/测试页面/">
-                测试页面
+              <a class="post-title-link" href="/2015/05/04/测试页面/">
+                js中call和apply的那些事儿
               </a>
             
           
@@ -122,7 +139,7 @@
       <div class="post-meta">
         <span class="post-time">
           
-            04-30
+            05-04
           
         </span>
 
@@ -132,8 +149,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2015/04/30/测试页面/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/30/测试页面/"></span>
+            <a href="/2015/05/04/测试页面/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/05/04/测试页面/"></span>
             </a>
           </span>
           
@@ -145,6 +162,7 @@
 
     
   </div>
+
 
 
   
@@ -422,6 +440,12 @@
 
 
   
+  
+    <script type="text/javascript" id="motion.page.archive">
+      $('.archive-year').velocity('transition.slideLeftIn');
+    </script>
+  
+
 
   
 
